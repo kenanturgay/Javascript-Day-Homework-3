@@ -15,7 +15,7 @@ body{
     height: 30vh;
     margin: 100px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: aquamarine;
     border-radius: 8px;
     box-shadow: 0px 0px 100px rgba(26, 4, 228, 0.9);
     display: flex;
@@ -39,8 +39,7 @@ body{
 input{
     width: 100%;
     padding: 10px;
-    
-    border: 1px solid #ccc;
+    border: 1px solid #0b60e0;
     border-radius: 4px;
 }
 
@@ -72,7 +71,21 @@ input{
     background-color: #c82333;
 }
 p {
+    font-weight: bold;
     font-size: 1.2em;
-    margin-top: 20px;
+    font-weight: bold;
     color: #c82333;
+}
+
+.timer {
+
+    margin-top:20px ;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    color: #0b60e0;
+    border: 1px solid #0b60e0;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #f0f0f0;
 }

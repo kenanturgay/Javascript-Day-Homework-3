@@ -19,7 +19,7 @@ startBtn.addEventListener("click", () => {
   timeLeft = value;
   display.textContent = `${timeLeft} second left`;
 
-  
+  clearInterval(countdown);
 
   countdown = setInterval(() => {
     timeLeft--;
