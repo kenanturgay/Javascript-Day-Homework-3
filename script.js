@@ -2,10 +2,7 @@ const input = document.getElementById("input");
 const startBtn = document.getElementById("start");
 const resetBtn = document.getElementById("reset");
 
-
 const display = document.querySelector("p");
-
-
 
 let countdown; 
 let timeLeft = 0;
@@ -22,7 +19,7 @@ startBtn.addEventListener("click", () => {
   timeLeft = value;
   display.textContent = `${timeLeft} second left`;
 
-  clearInterval(countdown);
+  
 
   countdown = setInterval(() => {
     timeLeft--;
